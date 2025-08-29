@@ -1,0 +1,48 @@
+plugins {
+    id "com.android.application"
+    // START: FlutterFire Configuration
+    id 'com.google.gms.google-services'
+    // END: FlutterFire Configuration
+    id "kotlin-android"
+    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+android {
+    namespace = "com.example.video_streaming_app"
+    compileSdk = 34
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    defaultConfig {
+        applicationId = "com.example.video_streaming_app"
+        minSdk = 23
+        targetSdk = 34 // Updated to match the compile SDK version
+        versionCode flutter.versionCode.toInteger() // Make sure this is defined in `local.properties`
+        versionName flutter.versionName
+    }
+
+   buildTypes {
+    release {
+        signingConfig signingConfigs.debug
+        minifyEnabled false // Disable code shrinking
+        shrinkResources false // Disable resource shrinking
+        proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+    }
+}
+
+
+    // Optional: Configure NDK version only if needed for native code
+    ndkVersion = "25.1.8937393" // Specify a stable NDK version if required, otherwise you can remove this line.
+}
+
+flutter {
+    source = "../.."
+}

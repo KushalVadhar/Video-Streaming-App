@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1092818917014",
+    "project_id": "video-streaming-tutorial-9686c",
+    "storage_bucket": "video-streaming-tutorial-9686c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092818917014:android:e791eb21426a79974754b7",
+        "android_client_info": {
+          "package_name": "com.example.video_streaming_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA0RSel2Cf_oKeRgRN9rsUdg68mfIPu80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

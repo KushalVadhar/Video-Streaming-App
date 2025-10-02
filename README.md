@@ -8,7 +8,7 @@ A Flutter-based Video Streaming Application that allows users to browse videos, 
 
 
 
-✅ Preview Page
+✅ Splash Screen & Preview Page
 
 
 ![Splash Screen](lib/asset/Screenshot%202025-10-01%20164441.png)
@@ -21,8 +21,13 @@ A Flutter-based Video Streaming Application that allows users to browse videos, 
 
 Login/Sign-up using Email & Password
 
+![Video Player](lib/asset/Screenshot%202025-10-01%20165316.png)
+
+![Live Streaming](lib/asset/Screenshot%202025-10-01%20165344.png)
 
 Phone Number Authentication with OTP
+
+
 
 ✅ Browse Videos
 

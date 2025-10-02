@@ -1,12 +1,13 @@
 A Flutter-based Video Streaming Application that allows users to browse videos, watch live streams, and authenticate using phone number or email. Built with Firebase Authentication, Agora for Live Streaming, and a clean modern UI.
 🚀 Features
 
-
-
-
 ✅ Preview Page
 A Flutter-based Video Streaming Application that allows users to browse videos, watch live streams, and authenticate using phone number or email. Built with Firebase Authentication, Agora for Live Streaming, and a clean modern UI.
 🚀 Features
+
+
+
+
 
 
 ✅ Splash Screen

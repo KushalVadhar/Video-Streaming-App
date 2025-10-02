@@ -6,7 +6,8 @@ A Flutter-based Video Streaming Application that allows users to browse videos, 
 🚀 Features
 
 ✅ Preview Page
- ![Preview Page](lib\asset\14245138_SoApril_006.jpg)
+![Preview Page](lib/asset/14245138_SoApril_006.jpg)
+
 
 
 

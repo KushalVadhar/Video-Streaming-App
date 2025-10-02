@@ -8,19 +8,12 @@ A Flutter-based Video Streaming Application that allows users to browse videos, 
 
 
 
-
-
-✅ Splash Screen
-![Splash Screen](lib/asset/Screenshot%202025-10-01%20164441.png)
-
-
 ✅ Preview Page
 
+
+![Splash Screen](lib/asset/Screenshot%202025-10-01%20164441.png)
+
 !![Selection Page](lib/asset/Screenshot%202025-10-01%20163936.png)
-
-
-
-
 
 
 

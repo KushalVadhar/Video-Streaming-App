@@ -125,9 +125,12 @@ class _PhoneSignInPageState extends State<PhoneSignInPage> {
                       textStyle: const TextStyle(fontSize: 18),
                     ),
                     const SizedBox(height: 30),
-                    ElevatedButton(
-                      onPressed: sendOTP, // Send OTP on button click
-                      child: Text('Send Code'),
+                    CustomButton(
+                      onTap: sendOTP,
+                      text: 'Send OTP',
+                      textColor: Colors.black,
+                      buttonColor: Colors.purpleAccent,
+                      fontsize: 25,
                     ),
                   ],
                 ),

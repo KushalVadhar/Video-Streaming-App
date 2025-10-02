@@ -27,6 +27,9 @@ Login/Sign-up using Email & Password
 
 Phone Number Authentication with OTP
 
+![Video List](lib/asset/Screenshot%202025-10-01%20170102.png)
+
+
 
 
 ✅ Browse Videos
